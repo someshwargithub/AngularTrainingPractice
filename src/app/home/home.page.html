@@ -1,0 +1,15 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Hey try to login or register</ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content [fullscreen]="true">
+  <ion-grid [fixed]="true">
+    <ion-row>
+      <ion-col> <ion-button (click)="doLogin();">Login</ion-button></ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col colspan="4"><ion-button (click)="doRegister();">Register</ion-button></ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
